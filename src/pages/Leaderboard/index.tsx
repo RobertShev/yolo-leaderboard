@@ -7,7 +7,7 @@ import store from '../../entities/ScoreUser/store';
 import Loader from '../../shared/ui/Loader';
 import LeaderboardTable from '../../widgets/LeaderboardTable';
 
-const URL = 'ws://127.0.0.1:3050';
+const URL = import.meta.env.VITE_BACKEND_URL;
 
 function Leaderboard() {
   const { getQueryParam } = useQuery();

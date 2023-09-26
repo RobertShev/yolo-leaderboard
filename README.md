@@ -8,9 +8,10 @@
 ---
 
 <p align="center"> Frontend Test Task with WebSocket
-    <br> 
+    <br>
+    <br>
+    <strong>Keeping .env files in repository is security danger. Keeping it here for ease of testing for reviewer</strong>
 </p>
-
 ## 📝 Table of Contents
 
 - [About](#about)
@@ -47,6 +48,9 @@ Install packages via yarn
 ```
 yarn
 ```
+if required Update .env file `VITE_BACKEND_URL` variable to backend URL
+
+**NB: Keeping .env files in repository is security danger. Keeping it here for ease of testing for reviewer**
 
 Run project
 ```

@@ -5,7 +5,7 @@ import { Avatar, IconButton, TableCell, TableRow } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { AnimatedRowProps } from './types';
 
-function UserScoreTableRow({
+function ScoreUserTableRow({
   user,
   removeUser,
   ...transitionProps
@@ -39,4 +39,4 @@ function UserScoreTableRow({
   );
 }
 
-export default UserScoreTableRow;
+export default ScoreUserTableRow;

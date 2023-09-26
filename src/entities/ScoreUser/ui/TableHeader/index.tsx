@@ -1,6 +1,6 @@
 import { TableCell, TableHead, TableRow } from '@mui/material';
 
-function UserScoreTableHeader() {
+function ScoreUserTableHeader() {
   return (
     <TableHead>
       <TableRow>
@@ -14,4 +14,4 @@ function UserScoreTableHeader() {
   );
 }
 
-export default UserScoreTableHeader;
+export default ScoreUserTableHeader;

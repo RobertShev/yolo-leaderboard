@@ -52,9 +52,17 @@ if required Update .env file `VITE_BACKEND_URL` variable to backend URL
 
 **NB: Keeping .env files in repository is security danger. Keeping it here for ease of testing for reviewer**
 
+### Running Project
 Run project
 ```
 yarn start
+```
+
+### Building project
+
+Build project
+```
+yarn build
 ```
 
 ## 🔧 Running the tests <a name = "tests"></a>

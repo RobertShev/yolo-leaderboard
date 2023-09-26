@@ -2,7 +2,7 @@
     background-color: orange;
 }
 
-.table__row-active {
+.table__row-enter-active {
     background-color: white;
     transition: background-color 500ms ease-in;
 }

@@ -11,6 +11,17 @@ const generateLimitQueryUrl = (limit: number, route: ERoutes): string => {
   return limit !== 10 ? `${route}?limit=${limit}` : route.toString();
 };
 
+const Links = [
+  {
+    label: 'LEADERBOARD',
+    route: ERoutes.Leaderboard,
+  },
+  {
+    label: 'SETTINGS',
+    route: ERoutes.Settings,
+  },
+];
+
 function TabsNavBar() {
   const location = useLocation();
   const [value, setValue] = useState(location.pathname as ERoutes);
@@ -26,18 +37,15 @@ function TabsNavBar() {
       onChange={handleChange}
       aria-label="basic tabs example"
     >
-      <Tab
-        label="LEADERBOARD"
-        component={Link}
-        to={generateLimitQueryUrl(index.limit, ERoutes.Leaderboard)}
-        value={ERoutes.Leaderboard}
-      />
-      <Tab
-        label="SETTINGS"
-        component={Link}
-        to={generateLimitQueryUrl(index.limit, ERoutes.Settings)}
-        value={ERoutes.Settings}
-      />
+      {Links.map((link) => (
+        <Tab
+          key={link.label}
+          label={link.label}
+          component={Link}
+          to={generateLimitQueryUrl(index.limit, link.route)}
+          value={ERoutes.Leaderboard}
+        />
+      ))}
     </Tabs>
   );
 }

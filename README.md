@@ -15,7 +15,6 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
 - [Built Using](#built_using)
 
 ## 🧐 About <a name = "about"></a>
@@ -77,4 +76,5 @@ yarn lint:fix
 - [Mobx](https://mobx.js.org/react-integration.html) - State management
 - [Material UI 5](https://mui.com/material-ui/getting-started/) - Library of React UI components
 - [React Router 6](https://reactrouter.com/en/6.16.0) - Declarative routing for React
+- [Feature-Sliced Design](https://feature-sliced.design) - Architectural methodology for frontend 
 

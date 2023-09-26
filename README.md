@@ -21,7 +21,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Welcome to the yolo-leaderboard app. Built using React, Typescript and Feature Slice Design pattern variaton. Maintaining code quality with Prettier for formatting and ESLint for code standards. Testing with React Testing Library and Vitest, creating a sleek UI with Material UI, and ensuring real-time communication with Socket.io.
+Welcome to the yolo-leaderboard app. Built using React, Typescript and Feature Slice Design pattern variation. Maintaining code quality with Prettier for formatting and ESLint for code standards. Testing with React Testing Library and Vitest, creating a sleek UI with Material UI, and ensuring real-time communication with Socket.io.
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 

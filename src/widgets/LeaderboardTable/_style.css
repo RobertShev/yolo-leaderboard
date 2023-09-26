@@ -1,8 +1,8 @@
-.item-enter {
+.table__row-enter {
     background-color: orange;
 }
 
-.item-enter-active {
+.table__row-active {
     background-color: white;
     transition: background-color 500ms ease-in;
 }

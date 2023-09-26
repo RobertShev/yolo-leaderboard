@@ -3,6 +3,7 @@ import { Paper, Table, TableBody, TableContainer } from '@mui/material';
 import UserScoreTableRow from '../../entities/ScoreUser/ui/TableRow';
 import UserScoreTableHeader from '../../entities/ScoreUser/ui/TableHeader';
 import { UserTableProps } from './types';
+import './_style.css';
 
 function LeaderboardTable({ removeUser, users }: UserTableProps) {
   return (
@@ -14,7 +15,7 @@ function LeaderboardTable({ removeUser, users }: UserTableProps) {
             {users?.map((row) => (
               <UserScoreTableRow
                 timeout={500}
-                classNames="item"
+                classNames="table__row"
                 key={row.userId}
                 user={row}
                 removeUser={() => removeUser(row)}

@@ -13,12 +13,8 @@ function NotFound() {
         gap: '1.5em',
       }}
     >
-      <Typography variant="h1" style={{ color: 'black' }}>
-        404
-      </Typography>
-      <Typography variant="h6" style={{ color: 'black' }}>
-        The page you’re looking for doesn’t exist.
-      </Typography>
+      <Typography variant="h1">404</Typography>
+      <Typography>The page you’re looking for doesn’t exist.</Typography>
       <Button component={Link} to="/">
         Back Home
       </Button>

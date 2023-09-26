@@ -10,7 +10,7 @@
 <p align="center"> Frontend Test Task with WebSocket
     <br>
     <br>
-    <strong style="color:#f03c15;">Keeping .env files in repository is security danger. Keeping it here for ease of testing for reviewer</strong>
+    <strong style="color:#f03c15;">⚠️ Keeping .env files in repository is security danger. Keeping it here for ease of testing for reviewer ⚠️</strong>
 </p>
 
 ## 📝 Table of Contents
@@ -51,7 +51,7 @@ yarn
 ```
 if required Update .env file `VITE_BACKEND_URL` variable to backend URL
 
-<strong style="color:#f03c15;">Keeping .env files in repository is security danger. Keeping it here for ease of testing for reviewer</strong>
+<strong style="color:#f03c15;">⚠️ Keeping .env files in repository is security danger. Keeping it here for ease of testing for reviewer</strong>
 
 ### Running Project
 Run project

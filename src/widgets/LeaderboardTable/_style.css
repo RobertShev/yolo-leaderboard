@@ -5,5 +5,8 @@
 .table__row-enter-active {
     background-color: white;
     transition: background-color 500ms ease-in;
+    @media (prefers-color-scheme: dark) {
+        background-color: #1E1E1E;
+    }
 }
 

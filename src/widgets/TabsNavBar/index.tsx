@@ -44,7 +44,7 @@ function TabsNavBar() {
           label={link.label}
           component={Link}
           to={generateLimitQueryUrl(index.limit, link.route)}
-          value={ERoutes.Leaderboard}
+          value={link.route}
         />
       ))}
     </Tabs>

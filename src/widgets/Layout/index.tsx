@@ -6,7 +6,7 @@ function Layout() {
   return (
     <Box sx={{ maxWidth: '50em', margin: 'auto' }}>
       <TabsNavBar />
-      <Box sx={{ p: '2em 1.5em 0' }}>
+      <Box sx={{ p: '2em 1.5em 3em' }}>
         <Outlet />
       </Box>
     </Box>

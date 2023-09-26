@@ -1,15 +1,15 @@
 import { useRoutes } from 'react-router-dom';
-import Index from '../widgets/Layout';
 import Leaderboard from './Leaderboard';
 import Settings from './Settings';
 import NotFound from './NotFound';
+import Layout from '../widgets/Layout';
 
 function Routing() {
   const Routes = () =>
     useRoutes([
       {
         path: '/',
-        element: <Index />,
+        element: <Layout />,
         children: [
           {
             index: true,

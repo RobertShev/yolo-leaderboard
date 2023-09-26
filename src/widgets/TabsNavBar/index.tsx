@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import * as React from 'react';
 import { useState } from 'react';
 import { observer } from 'mobx-react-lite';
+
 import index from '../../entities/ScoreUser/store';
 import ERoutes from '../../shared/enums/ERoutes';
 import { NavBarLink } from './type';

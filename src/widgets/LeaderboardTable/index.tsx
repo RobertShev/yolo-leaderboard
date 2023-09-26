@@ -1,5 +1,6 @@
 import { TransitionGroup } from 'react-transition-group';
 import { Paper, Table, TableBody, TableContainer } from '@mui/material';
+
 import UserScoreTableRow from '../../entities/ScoreUser/ui/TableRow';
 import UserScoreTableHeader from '../../entities/ScoreUser/ui/TableHeader';
 import { UserTableProps } from './types';

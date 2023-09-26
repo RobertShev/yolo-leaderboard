@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { observer } from 'mobx-react-lite';
+
 import useQuery from '../../shared/hooks/useQuery';
 import useSocket from '../../shared/hooks/useSocket';
 import { ScoreUser } from '../../entities/ScoreUser/model';

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { faker } from '@faker-js/faker';
+
 import { ScoreUsers } from '..';
 import { ScoreUser } from '../../model';
 

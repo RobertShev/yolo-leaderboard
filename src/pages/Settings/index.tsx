@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { observer } from 'mobx-react-lite';
+
 import useQuery from '../../shared/hooks/useQuery';
 import store from '../../entities/ScoreUser/store';
 import Slider from '../../widgets/Slider';

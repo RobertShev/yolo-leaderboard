@@ -1,4 +1,5 @@
 import { Slider as MaterialSlider, Typography } from '@mui/material';
+
 import { SliderProps } from './types';
 
 function Slider({ value, setValue, title, max = 20 }: SliderProps) {

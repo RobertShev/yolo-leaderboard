@@ -1,4 +1,5 @@
 import { useRoutes } from 'react-router-dom';
+
 import Leaderboard from './Leaderboard';
 import Settings from './Settings';
 import NotFound from './NotFound';

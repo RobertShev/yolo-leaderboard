@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { Avatar, IconButton, TableCell, TableRow } from '@mui/material';
+
 import DeleteIcon from '@mui/icons-material/Delete';
 import { AnimatedRowProps } from './types';
 

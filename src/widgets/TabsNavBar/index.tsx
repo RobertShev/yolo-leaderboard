@@ -6,12 +6,13 @@ import { useState } from 'react';
 import { observer } from 'mobx-react-lite';
 import index from '../../entities/ScoreUser/store';
 import ERoutes from '../../shared/enums/ERoutes';
+import { NavBarLink } from './type';
 
 const generateLimitQueryUrl = (limit: number, route: ERoutes): string => {
   return limit !== 10 ? `${route}?limit=${limit}` : route.toString();
 };
 
-const Links = [
+const Links: NavBarLink[] = [
   {
     label: 'LEADERBOARD',
     route: ERoutes.Leaderboard,

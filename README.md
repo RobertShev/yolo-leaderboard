@@ -20,41 +20,46 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
-
+Welcome to the yolo-leaderboard app, built using the Feature Slice Design pattern variaton. Maintaining code quality with Prettier for formatting and ESLint for code standards. Testing with React Testing Library and Vitest, create a sleek UI with Material UI, and ensuring real-time communication with Socket.io.
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+Before you begin, ensure you have the following tools installed:
 
+- **Node.js 18:** You can download and install Node.js 18 from [https://nodejs.org/](https://nodejs.org/) or via [nvm](https://github.com/nvm-sh/nvm).
+
+- **Yarn:** Yarn is a fast and reliable package manager. If you haven't installed Yarn, you can do so by following the instructions at [https://classic.yarnpkg.com/en/docs/install](https://classic.yarnpkg.com/en/docs/install).
+
+#### To run the backend, clone the backend repository:
+Clone repository
 ```
-Give examples
+git clone https://github.com/coingaming/fe-test-task-ws
 ```
+Follow instructions of cloned repo readme 
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Install packages via yarn
 
 ```
-until finished
+yarn
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+Run project
+```
+yarn start
+```
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
-Explain how to run the automated tests for this system.
+Run tests 
+```
+yarn test
+```
 
 ### Break down into end to end tests
 

@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { observer } from 'mobx-react-lite';
-import Slider from '../../../../../yolo-frontend-task/src/widgets/Slider';
-import store from '../../../../../yolo-frontend-task/src/entities/ScoreUser/store';
-import useQuery from '../../../../../yolo-frontend-task/src/shared/hooks/useQuery.tsx';
+import useQuery from '../../shared/hooks/useQuery';
+import store from '../../entities/ScoreUser/store';
+import Slider from '../../widgets/Slider';
 
 function Settings() {
   const { setQueryParam, clearQueryParam, getQueryParam } = useQuery();

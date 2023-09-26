@@ -3,13 +3,13 @@ import { CSSTransition } from 'react-transition-group';
 import { Avatar, IconButton, TableCell, TableRow } from '@mui/material';
 
 import DeleteIcon from '@mui/icons-material/Delete';
-import { AnimatedRowProps } from './types';
+import { ScoreUserTableRowProps } from './types';
 
 function ScoreUserTableRow({
   user,
   removeUser,
   ...transitionProps
-}: AnimatedRowProps) {
+}: ScoreUserTableRowProps) {
   const nodeRef = useRef(null);
   const { avatar, username, email, score } = user;
 

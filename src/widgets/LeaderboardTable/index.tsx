@@ -3,10 +3,10 @@ import { Paper, Table, TableBody, TableContainer } from '@mui/material';
 
 import ScoreUserTableRow from '../../entities/ScoreUser/ui/TableRow';
 import ScoreUserTableHeader from '../../entities/ScoreUser/ui/TableHeader';
-import { UserTableProps } from './types';
+import { LeaderboardTableProps } from './types';
 import './_style.css';
 
-function LeaderboardTable({ removeUser, users }: UserTableProps) {
+function LeaderboardTable({ removeUser, users }: LeaderboardTableProps) {
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="users table">

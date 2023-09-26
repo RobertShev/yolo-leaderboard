@@ -20,7 +20,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Welcome to the yolo-leaderboard app, built using the Feature Slice Design pattern variaton. Maintaining code quality with Prettier for formatting and ESLint for code standards. Testing with React Testing Library and Vitest, create a sleek UI with Material UI, and ensuring real-time communication with Socket.io.
+Welcome to the yolo-leaderboard app. Built using React, Typescript and Feature Slice Design pattern variaton. Maintaining code quality with Prettier for formatting and ESLint for code standards. Testing with React Testing Library and Vitest, creating a sleek UI with Material UI, and ensuring real-time communication with Socket.io.
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
@@ -38,7 +38,7 @@ Clone repository
 ```
 git clone https://github.com/coingaming/fe-test-task-ws
 ```
-Follow instructions of cloned repo readme 
+**NB: Follow instructions from cloned repository**  
 
 ### Installing
 
@@ -61,26 +61,13 @@ Run tests
 yarn test
 ```
 
-### Break down into end to end tests
+## Coding style validation with autofix
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+Scan project for coding style issues and apply fixes on them
 
 ```
-Give an example
+yarn lint:fix
 ```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 

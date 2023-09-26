@@ -35,7 +35,7 @@ Before you begin, ensure you have the following tools installed:
 - **Yarn:** Yarn is a fast and reliable package manager. If you haven't installed Yarn, you can do so by following the instructions at [https://classic.yarnpkg.com/en/docs/install](https://classic.yarnpkg.com/en/docs/install).
 
 #### To run the backend, clone the backend repository:
-Clone repository
+Separately clone repository 
 ```
 git clone https://github.com/coingaming/fe-test-task-ws
 ```

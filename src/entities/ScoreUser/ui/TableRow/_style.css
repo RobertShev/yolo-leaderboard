@@ -1,0 +1,9 @@
+.item-enter {
+    background-color: orange;
+}
+
+.item-enter-active {
+    background-color: white;
+    transition: background-color 500ms ease-in;
+}
+

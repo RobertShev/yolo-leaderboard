@@ -58,7 +58,9 @@ Run project
 ```
 yarn start
 ```
+Vite will run application on default port 5173
 
+example:`http://localhost:5173/`
 ### Building project
 
 Build project
